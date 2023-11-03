@@ -33,5 +33,6 @@ $$
 $$
 > find the parameters $w$ to the model that minimises the loss.
 
-## Worked Example:
-[[Linear Regression]]
+There are several ways to go about doing this. Often, its possible to find a perfect analytical solution; Checkout [[Linear Regression - Analytical Solution]] for a worked example.
+
+However analytical solutions don't work in all cases - or they may be intractable. So we use imprecise-but-good-enough heuristic methods. The most famous is [[Gradient Descent]].
