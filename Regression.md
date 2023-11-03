@@ -28,10 +28,9 @@ This is called the mean squared loss (often we just shorten it to 'loss'). This 
 
 We want to get the best model we can. Lets ignore how we would choose $f$ for now and focus only on $w$. We want to minimise the loss with respect to $w$. This is the principal question at the heart of regression, and it takes the form:
 
-> [!tip]
-> $$\argmin_{w} \mathcal{L} \left(w | x, t\right)$$
+> [!tip] &nbsp; 
 >  *Find the parameters $w$ to the model that minimises the loss*
-
+> $$\argmin_{w} \mathcal{L} \left(w | x, t\right)$$
 
 There are several ways to go about doing this. Often, its possible to find a perfect analytical solution; Checkout [[Linear Regression - Analytical Solution]] for a worked example.
 

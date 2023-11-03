@@ -26,9 +26,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "40c44b1ca50e3016",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vectorising Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gradient Descent.md",
+                "file": "Vectorising Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gradient Descent.md",
+                "file": "Vectorising Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gradient Descent.md"
+                "file": "Vectorising Regression.md"
               }
             }
           },
@@ -173,10 +185,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7a1a3d8dbcd4bcd",
+  "active": "40c44b1ca50e3016",
   "lastOpenFiles": [
-    "Regression.md",
     "Gradient Descent.md",
+    "Vectorising Regression.md",
+    "Regression.md",
     "Linear Regression - Analytical Solution.md",
     "ml-revision-2.excalidraw.crswap",
     "ml-revision-2.excalidraw",
