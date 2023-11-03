@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vectorising Linear Regression.md",
+                "file": "Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vectorising Linear Regression.md",
+                "file": "Glossary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vectorising Linear Regression.md",
+                "file": "Glossary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vectorising Linear Regression.md"
+                "file": "Glossary.md"
               }
             }
           },
@@ -209,14 +209,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40c44b1ca50e3016",
+  "active": "b51d9a1b56ef1901",
   "lastOpenFiles": [
+    "Regression.md",
+    "Mathematical concepts.md",
+    "Linear Regression - Analytical Solution.md",
     "Gradient Descent.md",
     "Vectorising Linear Regression.md",
+    "Validation.md",
     "Glossary.md",
-    "Mathematical concepts.md",
-    "Regression.md",
-    "Linear Regression - Analytical Solution.md",
     "ml-revision-2.excalidraw.crswap",
     "ml-revision-2.excalidraw",
     "ML-revision.excalidraw.crswap",

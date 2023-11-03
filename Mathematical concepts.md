@@ -1,3 +1,5 @@
 
 
-Matrices: Transpose, inverse, determinant and more
+Vectors & Matrices: Transpose, inverse, determinant and more
+
+
