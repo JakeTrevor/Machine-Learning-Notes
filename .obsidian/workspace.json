@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression.md",
+                "file": "Gradient Descent.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regression.md",
+                "file": "Gradient Descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regression.md",
+                "file": "Gradient Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regression.md"
+                "file": "Gradient Descent.md"
               }
             }
           },
@@ -175,9 +175,9 @@
   },
   "active": "d7a1a3d8dbcd4bcd",
   "lastOpenFiles": [
-    "Linear Regression - Analytical Solution.md",
     "Regression.md",
     "Gradient Descent.md",
+    "Linear Regression - Analytical Solution.md",
     "ml-revision-2.excalidraw.crswap",
     "ml-revision-2.excalidraw",
     "ML-revision.excalidraw.crswap",

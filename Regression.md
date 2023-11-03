@@ -5,11 +5,11 @@ $$
 >[!info] Regression:
 > Learning a continuous function from a set of known data points
 
-In regression, we assume our data takes the form:
+Let's say that we have some data that comes in pairs of values ($x, t$). In regression, we assume it takes the form:
 $$
 t = f(x | w)
 $$
-Where $f$ is a continuous function, and $w$ are some parameters to that function. $f$ and $w$ together form our model.
+Where $f$ is a continuous function, and $w$ is a collection of parameters to that function. $f$ and $w$ together form our model.
 
 We want a way of assessing how good our model is. To do we find the difference between the prediction of the model at some point $n$ and the true value:
 $$
@@ -26,12 +26,12 @@ $$
 $$
 This is called the mean squared loss (often we just shorten it to 'loss'). This gives us a measure of how bad the model is - the higher the loss, the worse the model.
 
-We want to get the model. Lets ignore how we would choose $f$ for now and focus only on $w$. We want to minimise the loss with respect to $w$.
-The general form of regression then is:
-$$
-\argmin_{w} \mathcal{L} \left(w | x, t\right)
-$$
-> find the parameters $w$ to the model that minimises the loss.
+We want to get the best model we can. Lets ignore how we would choose $f$ for now and focus only on $w$. We want to minimise the loss with respect to $w$. This is the principal question at the heart of regression, and it takes the form:
+
+> [!tip]
+> $$\argmin_{w} \mathcal{L} \left(w | x, t\right)$$
+>  *Find the parameters $w$ to the model that minimises the loss*
+
 
 There are several ways to go about doing this. Often, its possible to find a perfect analytical solution; Checkout [[Linear Regression - Analytical Solution]] for a worked example.
 
