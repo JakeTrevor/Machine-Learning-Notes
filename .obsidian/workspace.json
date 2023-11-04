@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossary.md",
+                "file": "Validation.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Glossary.md",
+                "file": "Validation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Glossary.md",
+                "file": "Validation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Glossary.md"
+                "file": "Validation.md"
               }
             }
           },
@@ -211,13 +211,13 @@
   },
   "active": "b51d9a1b56ef1901",
   "lastOpenFiles": [
+    "Glossary.md",
     "Regression.md",
     "Mathematical concepts.md",
     "Linear Regression - Analytical Solution.md",
     "Gradient Descent.md",
     "Vectorising Linear Regression.md",
     "Validation.md",
-    "Glossary.md",
     "ml-revision-2.excalidraw.crswap",
     "ml-revision-2.excalidraw",
     "ML-revision.excalidraw.crswap",
