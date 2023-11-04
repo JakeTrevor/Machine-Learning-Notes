@@ -57,9 +57,7 @@ $$
 
 > [!info] A nice mathematical fact:
 > Let $q_{n}$ be a row in matrix $Q$ with $D$ rows.
-> $$
-\sum_{n=1}^D(q_{n})^{2} = Q^\top Q
-$$
+> $$\sum_{n=1}^D(q_{n})^{2} = Q^\top Q$$
 
 
 In our expression for loss,  it looks like we have a row in the following matrix:
