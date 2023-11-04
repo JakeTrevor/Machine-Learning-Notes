@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1c5617313be3c483",
+        "id": "8b800d43c51a90c8",
         "type": "tabs",
         "children": [
           {
-            "id": "d3d40c686a0b793d",
+            "id": "3ae388c7a41a32a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2eacf27842e32486",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Noise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Validation.md",
+                "file": "Noise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Validation.md",
+                "file": "Noise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Validation.md"
+                "file": "Noise.md"
               }
             }
           },
@@ -164,11 +177,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3d40c686a0b793d",
+  "active": "2eacf27842e32486",
   "lastOpenFiles": [
-    "Regression.md",
     "Validation.md",
+    "Noise.md",
     "Vectorising Linear Algebra - Derivation of w.md",
+    "Regression.md",
     "Vectorising Linear Regression.md",
     "Gradient Descent.md",
     "Linear Regression - Analytical Solution.md",
