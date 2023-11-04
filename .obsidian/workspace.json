@@ -4,55 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3d96ef28b84e357d",
+        "id": "bf811e4bb395278b",
         "type": "tabs",
         "children": [
           {
-            "id": "95e510df242b053c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "d7a1a3d8dbcd4bcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gradient Descent.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40c44b1ca50e3016",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regression.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a51f31fc1cf0e346",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gradient Descent.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b51d9a1b56ef1901",
+            "id": "f75e45e71e0b32d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4d8af20375894192",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vectorising Linear Algebra - Derivation of w.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vectorising Linear Regression.md",
+                "file": "Vectorising Linear Algebra - Derivation of w.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vectorising Linear Regression.md",
+                "file": "Vectorising Linear Algebra - Derivation of w.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vectorising Linear Regression.md"
+                "file": "Vectorising Linear Algebra - Derivation of w.md"
               }
             }
           },
@@ -209,15 +177,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b51d9a1b56ef1901",
+  "active": "4d8af20375894192",
   "lastOpenFiles": [
-    "Linear Regression - Analytical Solution.md",
-    "Validation.md",
-    "Glossary.md",
-    "Regression.md",
-    "Mathematical concepts.md",
-    "Gradient Descent.md",
     "Vectorising Linear Regression.md",
+    "Vectorising Linear Algebra - Derivation of w.md",
+    "Regression.md",
+    "Validation.md",
+    "Gradient Descent.md",
+    "Linear Regression - Analytical Solution.md",
+    "Glossary.md",
+    "Mathematical concepts.md",
     "ml-revision-2.excalidraw.crswap",
     "ml-revision-2.excalidraw",
     "ML-revision.excalidraw.crswap",

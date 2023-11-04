@@ -82,13 +82,8 @@ Through the power of *don't worry about it* and *maths*, we can find optimal $w$
 $$
 \hat{w}=(X^\top X)^{-1} X^\top T
 $$
-Don't worry about deriving this; its outside the scope of the course. The actual deivation is below:
-$$
-\begin{align}
-\frac{ \partial \mathcal{L} }{ \partial w }  & = \frac{ \partial  }{ \partial w } \frac{1}{N} (T-X\vec{w})^\top (T-X\vec{w}) \\
- & = \frac{ \partial  }{ \partial w } \frac{1}{N}
-\end{align}
-$$
+Don't worry about deriving this; its outside the scope of the course. If you're interested, here's a derivation
+
 
 ## More advanced regression
 I worked through this example with simple linear regression, but this formula for loss works on anything you can put into your design matrix.
