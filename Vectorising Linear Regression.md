@@ -21,9 +21,9 @@ This is called a design vector, because it controls the 'design' (i.e. the under
 $$
 t_{n} = \vec{x}_{n}^\top \vec{w}
 $$
-What if we wanted to compute all of our values of $t$ at once? We can combine our values for $t$ into a single large vector, called $T$:
+What if we wanted to compute all of our values of $t$ at once? We can combine our values for $t_{n}$ into a single large vector, called $t$:
 $$
-T=\begin{bmatrix}
+t=\begin{bmatrix}
 t_{1} \\
 t_{2} \\
 \vdots \\
@@ -42,7 +42,7 @@ X = \begin{bmatrix}
 $$
 Note that we transposed $\vec{x}$ so that we can now write our whole model:
 $$
-T = X\vec{w}
+t = X\vec{w}
 $$
 ## Vectorised loss
 We'd also like to vectorise our loss; Recall that it looks like;
@@ -64,11 +64,11 @@ $$
 
 In our expression for loss,  it looks like we have a row in the following matrix:
 $$
-(t_{n} - \vec{x}^\top w) \in T - X\vec{w}
+(t_{n} - \vec{x}^\top w) \in t - X\vec{w}
 $$
 This allows us to re-write loss in a nice vector form:
 $$
-\mathcal{L} = \frac{1}{N} (T-X\vec{w})^\top (T-X\vec{w})
+\mathcal{L} = \frac{1}{N} (t-X\vec{w})^\top (t-X\vec{w})
 $$
 
 ## Minimising loss:
@@ -80,7 +80,7 @@ $$
 
 Through the power of *don't worry about it* and *maths*, we can find optimal $w$:
 $$
-\hat{w}=(X^\top X)^{-1} X^\top T
+\hat{w}=(X^\top X)^{-1} X^\top t
 $$
 Don't worry about deriving this; its outside the scope of the course. If you're interested, there's a derivation [[Vectorising Linear Algebra - Derivation of w|here]].
 
