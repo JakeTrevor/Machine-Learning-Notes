@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2eacf27842e32486",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vectorising Linear Algebra - Derivation of w.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5e6898be0242b1ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Regression - Analytical Solution.md",
+                "file": "Random Noise.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Regression - Analytical Solution.md",
+                "file": "Random Noise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Regression - Analytical Solution.md",
+                "file": "Random Noise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Regression - Analytical Solution.md"
+                "file": "Random Noise.md"
               }
             }
           },
@@ -160,8 +147,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,6 +165,8 @@
   },
   "active": "5e6898be0242b1ff",
   "lastOpenFiles": [
+    "Glossary/Random Variables.md",
+    "Linear Regression - Analytical Solution.md",
     "Glossary/Mathematical concepts.md",
     "Bayesian Learning.md",
     "Glossary.md",
@@ -189,7 +177,6 @@
     "Vectorising Linear Regression.md",
     "Regression.md",
     "Validation.md",
-    "Linear Regression - Analytical Solution.md",
     "Gradient Descent.md",
     "ml-revision-2.excalidraw.crswap",
     "ml-revision-2.excalidraw",

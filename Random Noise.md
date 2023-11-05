@@ -1,7 +1,11 @@
 $$
 \DeclareMathOperator*{\argmin}{argmin}
 \DeclareMathOperator*{\argmax}{argmax}
-$$If we have a model $t_{n}=f(x_{n}| w)$ there is a degree of uncertainty in $t$; we expect noise to be present. We can formalise this notion by saying that $t_{n}$ follows a random variable - which is a mathematical way to describe uncertainty.
+$$
+> [!info] Prerequisite
+> To understand this chapter, its a good idea to make sure you understand [[Glossary/Random Variables|Random Variables]].
+
+If we have a model $t_{n}=f(x_{n}| w)$ there is a degree of uncertainty in $t$; we expect noise to be present. We can formalise this notion by saying that $t_{n}$ follows a random variable - which is a mathematical way to describe uncertainty.
 
 To do this, we create a model that encodes our uncertainty:
 $$
@@ -23,12 +27,12 @@ The density of $T$ at some point $t_n$ is called the **likelihood** of $t_n$. No
 
 We want to do this not just for a single point $x_n, t_n$, but for all the data in our model. To do this, we need to compute the joint likelihood of all our data points, which we can do like this:
 $$
-L = p(T=t_{1},  \dots T=t_{n}| w, \sigma^{2}, x_{1}\dots x_{n}) = \prod_{n=1}^N p(T=t_{n}|w,\sigma^{2}, x_{n})
+L = p(T_{1}=t_{1},  \dots T_{n}=t_{n}| w, \sigma^{2}, x_{1}\dots x_{n}) = \prod_{n=1}^N p(T_{n}=t_{n}|w,\sigma^{2}, x_{n})
 $$
 We call this the likelihood of the model and its written as $L$. Now, our regression optimisation looks like this:
 $$
 \begin{align}
-\argmax_{w, \sigma^{2}} L = \argmax_{w, \sigma^{2}} \left\{ \prod_{n=1}^N p(T=t_{n}|w,\sigma^{2}, x_{n})\right\}
+\argmax_{w, \sigma^{2}} L = \argmax_{w, \sigma^{2}} \left\{ \prod_{n=1}^N p(T_{n}=t_{n}|w,\sigma^{2}, x_{n})\right\}
 \end{align}
 $$
 We can optimise this computation by computing the log likelihood instead; recall:
