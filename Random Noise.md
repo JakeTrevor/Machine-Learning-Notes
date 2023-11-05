@@ -80,6 +80,7 @@ You should note that when we use this formalism, we don't compute loss - likelih
 
 You use this idea to help with choosing a model function too - instead of using validation loss, use validation likelihood. All the same ideas apply.
 
-How do we use a model like this? This produces a distribution, so its not really good at producing exact, direct predictions. Instead, you can ask what range a value is likely to fall into. This is outside the scope of the course, but for instance you can ask what range 95% of values fall into, and use that to set bounds on a prediction - or you can use it to give you some notion of 'confidence' in a prediction without the noise.
+How do we use a model like this? This produces a distribution, so its not really good at producing exact, direct predictions. Instead, you can ask what range a value is likely to fall into. This is outside the scope of the course, but for instance you can ask what range 95% of values fall into, and use that to set bounds on a prediction - or you can use it to give you some notion of 'confidence' in a prediction without the noise. [!Check: is this true?]
+
 
 

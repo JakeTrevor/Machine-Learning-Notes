@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8b800d43c51a90c8",
+        "id": "a33bbcbc3281e6cb",
         "type": "tabs",
         "children": [
           {
-            "id": "5e6898be0242b1ff",
+            "id": "9d69cd71802f1913",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random Noise.md",
+                "file": "Bayesian Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Random Noise.md",
+                "file": "Bayesian Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Random Noise.md",
+                "file": "Bayesian Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Random Noise.md"
+                "file": "Bayesian Learning.md"
               }
             }
           },
@@ -163,17 +163,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e6898be0242b1ff",
+  "active": "9d69cd71802f1913",
   "lastOpenFiles": [
+    "Glossary/Random Variables.md",
+    "Bayesian Learning.md",
+    "glossar/Random Variables.md",
+    "glossar",
+    "Random Noise.md",
     "Validation.md",
     "Vectorising Linear Regression.md",
     "Regression.md",
-    "Random Noise.md",
     "Vectorising Linear Algebra - Derivation of w.md",
     "Linear Regression - Analytical Solution.md",
-    "Glossary/Random Variables.md",
     "Glossary/Mathematical concepts.md",
-    "Bayesian Learning.md",
     "Glossary.md",
     "Glossary/index.md",
     "Glossary",
