@@ -14,7 +14,10 @@ Bayesian methods can help us reason about different possible models in a way tha
 
 ## combining models
 Lets say that we create a bunch of different models. We ask each model to make a prediction for some $t_n$ based on some $x_n$.
-
 $$
-\sum_{a=1}^{A}
+\sum_{a=1}^{A} q_{a f(X|w_{a})}
+$$
+where $q$ satisfies:
+$$
+\sum_{a=1}^{A}q_{a} = 1
 $$
