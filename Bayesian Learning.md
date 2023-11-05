@@ -21,3 +21,8 @@ where $q$ satisfies:
 $$
 \sum_{a=1}^{A}q_{a} = 1
 $$
+Intuitively, sampling more models should produce better results; so we can take this to the logical extreme. 
+First, we make $w$ a random variable - this makes sense, since we are uncertain of the value of $w$. Now, we can integrate over all the possible values of $w$,. This lets us get an expected value for the 
+$$
+E\left\{ f(x, w) \right\} = \int f(x, w) p(w) \, dx 
+$$
