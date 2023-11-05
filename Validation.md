@@ -1,3 +1,7 @@
+---
+next: "[[Random Noise]]"
+previous: "[[Vectorising Linear Regression]]"
+---
 In regression, our model takes the shape $t = f(x ; w)$. We have discussed (at some length now) how to select the best $w$ to optimise the model. But how do we pick $f$? We need a way to decide which functions produce the best models. Lets think about that.
 
 ## Loss - Why We can't use it

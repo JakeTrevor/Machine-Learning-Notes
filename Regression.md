@@ -1,3 +1,7 @@
+---
+next: "[[Vectorising Linear Regression]]"
+---
+
 $$
 \DeclareMathOperator*{\argmin}{argmin}
 \DeclareMathOperator*{\argmax}{argmax}

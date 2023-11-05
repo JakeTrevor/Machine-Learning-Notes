@@ -45,6 +45,10 @@ The $\mathcal{N}$ here comes from the other name - the variable follows a **norm
 
 The distribution is defined by two parameters; the mean $\mu$, and the variance $\sigma^{2}$. the mean tells you where the centre of the distribution is, and the variance tells you how  wide or 'stretched out' the distribution is.
 
+The density function for Gaussian random variables looks like so:
+$$
+p(x) =\frac{1}{\sigma \sqrt{ 2\pi }} \exp \left\{ -\frac{1}{2\sigma^{2}} (x-\mu)^{2} \right\}
+$$
 
 # Joint probabilities
 

@@ -1,3 +1,7 @@
+---
+next: "[[Bayesian Learning]]"
+previous: "[[Validation]]"
+---
 $$
 \DeclareMathOperator*{\argmin}{argmin}
 \DeclareMathOperator*{\argmax}{argmax}
@@ -35,16 +39,28 @@ $$
 \argmax_{w, \sigma^{2}} L = \argmax_{w, \sigma^{2}} \left\{ \prod_{n=1}^N p(T_{n}=t_{n}|w,\sigma^{2}, x_{n})\right\}
 \end{align}
 $$
-We can optimise this computation by computing the log likelihood instead; recall:
+This is actually quite hard because of the $\exp$ operation in there. But we can make it easier optimising the log likelihood instead. recall:
 $$
 \begin{align}
 x \uparrow  \log x \uparrow\\
 x \downarrow  \log x \downarrow
 \end{align}
 $$
-So when $x$ is at a maximum, then so is $\log x$. This gives us:
+So when $x$ is at a maximum, then so is $\log x$. This allows us to safely optimise the log instead, which gets rid of the inconvenient $\exp$. This gives us the epxression:
 $$
 \begin{align}
 \argmax_{w, \sigma^{2}} \ \log L = \argmax_{w, \sigma^{2}} \left\{ \log\prod_{n=1}^N p(T=t_{n}|w,\sigma^{2}, x_{n})\right\}
+\end{align}
+$$
+Writing this out in full we get:
+$$
+\argmax_{w, \sigma^{2}} \left\{ \log \prod_{n=1}^{N} \frac{1}{\sigma \sqrt{ 2\pi}}\exp\left\{ -\frac{1}{2\sigma^{2}} (t-f(x|w)) \right\} \right\}
+$$
+$$
+\begin{align}
+\log L  \\
+ & = \log \left( \frac{1}{\sigma \sqrt{ 2\pi}}\exp\left\{ -\frac{1}{2\sigma^{2}} (t-f(x|w)) \right\} \right) \\
+ & = \log \frac{1}{\sigma \sqrt{ 2\pi}} + \cancel{\log\exp}\left\{ -\frac{1}{2\sigma^{2}} (t-f(x|w)) \right\}  \\
+ & = -\log \left(\sigma \sqrt{ 2\pi} \right)+ -\frac{1}{2\sigma^{2}} (t-f(x|w)) 
 \end{align}
 $$

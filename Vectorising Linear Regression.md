@@ -1,4 +1,7 @@
-
+---
+next: "[[Validation]]"
+previous: "[[Regression]]"
+---
 Earlier I said that $w$ represents a collection of parameters to the model. We can represent this mathematically as a vector:
 
 $$
