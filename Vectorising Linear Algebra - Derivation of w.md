@@ -41,9 +41,10 @@ Note that there are four terms added together. We can differentiate these separa
 $$
 \begin{align}
 \frac{ \partial  }{ \partial \vec{w} } (t^\top t) & = 0 \\
-\frac{ \partial  }{ \partial \vec{w} } \left( -\vec{w}^\top X^\top t \right)  & = -X^\top t \\
-\frac{ \partial  }{ \partial \vec{w} } (-t^\top X \vec{w}) &= (-t^\top X)^\top \\&= -X^\top t \\
-\frac{ \partial  }{ \partial \vec{w} } \left( \vec{w}^\top X^\top X\vec{w} \right)  & = 2 X^\top X \vec{w}
+\frac{ \partial  }{ \partial \vec{w} } \left( -\vec{w}^\top X^\top t \right)  & = -X^\top t & \text{by (3)}\\
+\frac{ \partial  }{ \partial \vec{w} } (-t^\top X \vec{w}) &= (-t^\top X)^\top  & \text{by (4)}\\
+ & = -X^\top t  & \text{by (2)}\\
+\frac{ \partial  }{ \partial \vec{w} } \left( \vec{w}^\top X^\top X\vec{w} \right)  & = 2 X^\top X \vec{w} & \text{by (6)}
 \end{align}
 $$
 And then add the terms back together, so we get:

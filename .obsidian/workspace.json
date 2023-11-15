@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayesian Learning.md",
+                "file": "Vectorising Linear Algebra - Derivation of w.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bayesian Learning.md",
+                "file": "Vectorising Linear Algebra - Derivation of w.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bayesian Learning.md",
+                "file": "Vectorising Linear Algebra - Derivation of w.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bayesian Learning.md"
+                "file": "Vectorising Linear Algebra - Derivation of w.md"
               }
             }
           },
@@ -165,8 +165,8 @@
   },
   "active": "9d69cd71802f1913",
   "lastOpenFiles": [
-    "Glossary/Random Variables.md",
     "Bayesian Learning.md",
+    "Glossary/Random Variables.md",
     "glossar/Random Variables.md",
     "glossar",
     "Random Noise.md",
