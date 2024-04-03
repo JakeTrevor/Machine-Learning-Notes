@@ -46,7 +46,7 @@ w_{0} & =\bar{t} - w_{1}\bar{x} \\
 \end{align}
 $$
 
-Next, we 
+Next, we take the derivative with respect to $w_1$.
 $$
 \begin{align}
 \frac{ \partial \mathcal{L} }{ \partial w_{1} } &= \frac{ \partial }{ \partial w_{1} }  \frac{1}{N}\sum_{n=1}^{N} (t_{n} - (w_{0} + w_{1}x_{n}))^{2} \\
@@ -66,7 +66,7 @@ $$
 w_{1}\bar{x^{2}} &= \bar{tx} - w_{0}\bar{x}
 \end{align}
 $$
-We can now substitute in $w_{0}$
+and substitute in $w_{0}$:
 
 $$
 \begin{align}
@@ -78,7 +78,7 @@ w_{1} (\bar{x^{2}} -\bar{x}^{2}) &= \bar{tx} - \bar{t}\bar{x}  \\ \\
 w_{1} &= \frac{\bar{tx} - \bar{t}\bar{x} }{\bar{x^{2}} -\bar{x}^{2}} 
 \end{align}
 $$
-We now have a value for $w_{1}$ from $x$ and $t$; substituting this value back into $w_{0}$, we get the pair of equations:
+We now have a value for $w_{1}$ in terms of $x$ and $t$; substituting this value back into $w_{0}$, we get the pair of equations:
 $$
 \begin{align}
 w_{0} & =\bar{t} - \left(\frac{\bar{tx} - \bar{t}\bar{x} }{\bar{x^{2}} -\bar{x}^{2}} \right)\bar{x} \\ \\
