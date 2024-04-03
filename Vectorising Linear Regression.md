@@ -83,7 +83,7 @@ Through the power of *don't worry about it* and *maths*, we can find optimal $w$
 $$
 \hat{w}=(X^\top X)^{-1} X^\top t
 $$
-Don't worry about deriving this; its outside the scope of the course. If you're interested, there's a derivation [[Vectorising Linear Algebra - Derivation of w|here]].
+Deriving this is outside the scope of the course. If you're interested, there's a derivation [[vectorised lin reg|here]].
 
 
 ## More advanced regression

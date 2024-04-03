@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression.md",
+                "file": "Vectorising Linear Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6271e372730279e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vectorised lin reg.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regression.md",
+                "file": "vectorised lin reg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regression.md",
+                "file": "vectorised lin reg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regression.md"
+                "file": "vectorised lin reg.md"
               }
             }
           },
@@ -165,23 +178,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d69cd71802f1913",
+  "active": "7802b6bb5f69cfd1",
   "lastOpenFiles": [
+    "Vectoris.md",
+    "Vectorising Linear Regression.md",
+    "vectorised lin reg.md",
+    "Gradient Descent.md",
     "Linear Regression - Analytical Solution.md",
-    "Vectorising Linear Algebra - Derivation of w.md",
+    "Regression.md",
     "Bayesian Learning.md",
     "Glossary/Random Variables.md",
     "glossar/Random Variables.md",
     "glossar",
     "Random Noise.md",
     "Validation.md",
-    "Vectorising Linear Regression.md",
-    "Regression.md",
     "Glossary/Mathematical concepts.md",
     "Glossary.md",
     "Glossary/index.md",
     "Glossary",
-    "Gradient Descent.md",
     "ml-revision-2.excalidraw.crswap",
     "ml-revision-2.excalidraw",
     "ML-revision.excalidraw.crswap",
