@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vectorising Linear Algebra - Derivation of w.md",
+                "file": "Linear Regression - Analytical Solution.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vectorising Linear Algebra - Derivation of w.md",
+                "file": "Linear Regression - Analytical Solution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vectorising Linear Algebra - Derivation of w.md",
+                "file": "Linear Regression - Analytical Solution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vectorising Linear Algebra - Derivation of w.md"
+                "file": "Linear Regression - Analytical Solution.md"
               }
             }
           },
@@ -135,7 +135,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -165,6 +167,7 @@
   },
   "active": "9d69cd71802f1913",
   "lastOpenFiles": [
+    "Vectorising Linear Algebra - Derivation of w.md",
     "Bayesian Learning.md",
     "Glossary/Random Variables.md",
     "glossar/Random Variables.md",
@@ -173,7 +176,6 @@
     "Validation.md",
     "Vectorising Linear Regression.md",
     "Regression.md",
-    "Vectorising Linear Algebra - Derivation of w.md",
     "Linear Regression - Analytical Solution.md",
     "Glossary/Mathematical concepts.md",
     "Glossary.md",

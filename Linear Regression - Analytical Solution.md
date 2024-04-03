@@ -46,6 +46,7 @@ w_{0} & =\bar{t} - w_{1}\bar{x} \\
 \end{align}
 $$
 
+Next, we 
 $$
 \begin{align}
 \frac{ \partial \mathcal{L} }{ \partial w_{1} } &= \frac{ \partial }{ \partial w_{1} }  \frac{1}{N}\sum_{n=1}^{N} (t_{n} - (w_{0} + w_{1}x_{n}))^{2} \\
